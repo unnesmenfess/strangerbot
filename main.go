@@ -44,10 +44,10 @@ func main() {
 	var err error
 
 	log.Println("Starting...")
-	mysqlUser := os.Getenv("MYSQL_USER")
-	mysqlPassword := os.Getenv("MYSQL_PASSWORD")
-	mysqlDatabaseName := os.Getenv("MYSQL_DATABASE_NAME")
-	telegramBotKey := os.Getenv("TELEGRAM_BOT_KEY")
+	mysqlUser := os.Getenv(id14602607_botunnes)
+	mysqlPassword := os.Getenv(O?e&qPTk!A9qQTGr)
+	mysqlDatabaseName := os.Getenv(id14602607_anonbotunnes)
+	telegramBotKey := os.Getenv(1307970357:AAHn-wqkbqAaqgx3PHulIn_H2hmqkoDaBkU)
 
 	dsn := fmt.Sprintf("%s:%s@(localhost:3306)/%s?parseTime=true", mysqlUser, mysqlPassword, mysqlDatabaseName)
 	db, err = sqlx.Open("mysql", dsn)
